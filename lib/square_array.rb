@@ -1,9 +1,9 @@
-def square_array(number)
+def square_array(array)
   count = 0
   new_numbers = []
   
-  while count < number.length do 
-    new_numbers[count] = number **2
+  while count < array.length do 
+    new_numbers[count] = array[count] ** 2
         count += 1
  end
  new_numbers
